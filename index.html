@@ -1,2 +1,6 @@
-<script src="/url.map.js"></script>
-<script src="/index.js"></script>
+<script src="https://adrienjoly.com/404/url.map.js"></script>
+<script>
+  var url = window.URLMap[location.pathname] || ('https://adrienjoly.com/' + location.pathname);
+  document.body.innerHTML = 'Redirecting to ' + url + '...';
+  location.href = url + (location.search || '');
+</script>

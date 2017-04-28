@@ -1,2 +1,1 @@
-var match = window.URLMap[location.pathname];
-location.href = match || window.URLMap['/'] + location.pathname;
+/* now included directly in index.html */

@@ -1,4 +1,1 @@
-(typeof window !== 'undefined' ? window : global).URLMap = {
-  "/": "https://adrienjoly.com/",
-  "/nextstep": "https://adrienjoly.com/chrome-next-step-for-trello",
-};
+/* now using https://adrienjoly.com/404/url.map.js instead */
